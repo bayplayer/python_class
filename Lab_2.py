@@ -6,12 +6,13 @@ Created on Wed Jul 29 21:50:33 2015
 @author: mr.statsguy@gmail.com
 """
 
-#To set up -
-#1) download data from link below -
-#https://resources.lendingclub.com/RejectStatsB.csv.zip
+"""
+To set up -
+1) download data from link below -
+https://resources.lendingclub.com/RejectStatsB.csv.zip
 
-#2) Second, we will run the code below -read in and process this file. 
-
+2) Second, we will run the code below -read in and process this file. 
+"""
 
 import csv
 import numpy
