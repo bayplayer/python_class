@@ -17,7 +17,7 @@ import csv
 import numpy
 import matplotlib.pyplot as plt
 
-inFile = '/Users/timothyliu/LendingClub/RejectStatsB.csv'
+inFile = 'Data/RejectStatsB.csv'
 
 f = open(inFile, 'rb')
 f.next()
