@@ -1,10 +1,15 @@
 
+"""
+Lab_1.py: Compute summary statistics across transaction records
 
-#========> Ex 1. Compute summary statistics across records <============
+Created on Wed Jul 29 21:50:33 2015
+
+@author: mr.statsguy@gmail.com
+"""
 
 import numpy as np
         
-#raw data -4 columns: date, custoNo, merchant, amt
+#raw data set has 4 columns: date, custoNo, merchant, amt
 data_lines = '''2012-12-28,10001,best buy,120.89
 2013-01-09,10001,netflix, 9.99
 2013-05-28,10001,1-800 Flowers,89.99
@@ -18,7 +23,7 @@ data_lines = '''2012-12-28,10001,best buy,120.89
 #initialize a list to hold values of transaction amount
 ls_amount = []
 
-#parse data
+#parse data line by line
 
 lines = data_lines.split('\n')
 for line in lines:
