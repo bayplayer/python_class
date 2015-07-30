@@ -1,4 +1,24 @@
-#!/usr/bin/env python
+"""
+bioResponse.py: Predict a biological response of molecules from their chemical properties
+
+Created on Wed Jul 29 21:50:33 2015
+
+@author: mr.statsguy@gmail.com
+"""
+
+"""
+To set up -
+1) download data from link below -
+https://www.kaggle.com/c/bioresponse/data
+
+2) Second, we will run the code below to build a RF model
+"""
+
+
+'''
+https://www.kaggle.com/c/bioresponse/data
+'''
+
 
 from sklearn.ensemble import RandomForestClassifier
 import csv_io
